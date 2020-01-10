@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <script  src = "js/scripty.js"></script>
+      <meta charset="utf-8"/>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+      <link type="text/css" rel = "stylesheet" href = "css/style.css"/> 
+      <title> Lukasz Jakubowski CV</title>
+
+      <!-- Add icon library -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+
+
+        <div class="header">
+          <div class="headerr">
+                  <h1>Lukasz Jakubowski</h1>
+                  <h5>Computing MEng Student at Imperial College London <br/>
+                  <a href="mailto:lj1019@ic.ac.uk">lukasz.jakubowski@imperial.ac.uk</a>
+                  </h5>
+          </div>
+        </div>
+        <div id="navbar">
+            <a href="#home">About</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#funstuff">FunStuff</a>
+            <a href="#CV">CV</a>
+        </div>
+        <div class="content"></div>
+        <div class="about">
+            <h3>ABOUT</h3>
+            <p>I am currently 1st year student, my interest include 
+           databases, Big Data analysis, Physics (Thermodynamics) and Windsurfing.</p>
+          </div><!--/ #intro-->
+        <div class="pdf_background">
+            <a class="pdf_button" href="Lukasz_Jakubowski_CV.pdf">PDF CV</a>
+        </div>
+<section id="resume" name="resume"></section>
+
+<!-- EDUCATION SECTION -->
+<div class="container desc">
+  <div class="education">
+        <h3>EDUCATION</h3>
+        <p>MEng Computing (International Programme of Study)<br/>
+          Imperial College London
+          <br/>Relevant modules: Java, Haskell, Graphs and Algorithms, Reasoning about Programs, Databases, 
+        </p>
+        <p>Expected Graduation: JUNE 2023<br/><br/>
+        </p>
+
+
+      <!-- EDIT: education line 2 -->
+        <p>Polish Matura <br/>
+           5th High School in Cracow
+          <br/>Mathematics: 100%, Physics: 100%, Computer Science: 92%, Polish: 95%
+        </p>
+        <p>MAY 2019</p>
+
+
+  </div><!--/.row -->
+
+  <div class="pdf_background">
+    <hr>
+  </div>
+</div><!--/.container -->
+
+
+  <div class="work">
+
+        <h3>WORK</h3>
+        <p class="tight">Student Intern <br/>
+          CERN<br/>
+        </p>
+        <p>Data Mining project concerning internal "sink and share" platform CERNBox. 
+          Data representation using Python packages. 
+          Data analysis in JSON and SQL.
+           Lectures in Particle Physics.</p>
+
+
+        <p>NOVEMBER 2018 <br/>
+        Geneva, Switzerland</p><br/>
+
+      
+        <p class="tight">Intern<br/>
+          GitSoft Poland <br/>
+        </p>
+        <p>Part-time summer internship. Working on a booking system for a sports company. Back-end development, MySQL
+            server, phpMyAdmin, WordPress and Git. Working remotely with a team in Poland.</more></p>
+   
+        <p>JULY 2010 - SEPTEMBER 2012 <br />
+        CRACOW, POLAND</p>
+
+  </div><!--/.row -->
+  <div class="pdf_background">
+      <hr>
+  </div>
+
+
+
+<!-- AWARDS SECTION -->
+
+  <div class="awards">
+
+        <h3>AWARDS</h3>
+
+
+      <!-- EDIT: awards line 1-->
+
+        <p>Double Laureate in National Physics Olympiad<br/>
+          Polish Physics Society<br/>
+        </p>
+        <p>APRIL 2019</p>
+        <br/>
+
+        <p>Best Project in County<br/>
+          Zwolnieni z Teorii Competition
+        </p>
+        <p>As one of the organizers, I set up a big Science event in which 450 primary school students took part in lectures,
+            experiments and educational games. Our team achieved the distinction as the best social project in the county and
+            mentioned on the national level.</p>
+
+
+        <p>APRIL 2018</p>
+
+  
+  </div><!--/.row -->
+  
+
+      
+<section id="contact" name="contact"></section>
+<!--FOOTER DESCRIPTION -->
+  <div class="footer">
+    <div class="footerr">
+      <!-- EDIT: email -->
+        <p>Email<br/>
+          <a href="mailto:lj1019@ic.ac.uk" class="mail">lukasz.jakubowski@imperial.ac.uk</a> <br/>
+        </p>
+        <div style="font-size: 30ps; background-color: white; color: black;">
+        SOCIAL LINKS <br/>
+          <a href="https://www.linkedin.com/in/%C5%82ukasz-jakubowski-2b0a28161/" class="fa fa-linkedin-square" style="font-size: 30px; "></a>
+          <a href="https://github.com/woocashh" class="fa fa-github-square" style="font-size: 30px;"></a>
+          <a href="https://www.facebook.com/profile.php?id=100009568486972" class="fa fa-facebook-square" style="font-size: 30px;"></a>
+          <a href="https://www.instagram.com/w.oocash/" class = "fa fa-instagram" style="font-size: 30px;"></a>
+        </div>
+      </div>
+  </div><!--/.container -->
+
+</div>
+
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+    </body>
+</html>
